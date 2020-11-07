@@ -1,3 +1,170 @@
-body {
-background-color:red;
+*
+{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
 }
+
+body
+{
+background:url(bg.jpg) repeat-x #bfbfbf;
+}
+
+.page{
+width:940px;
+background:white;
+margin:auto;
+padding-bottom:0px;
+box-sizing:border-box;
+
+}
+.header{
+height:125px;
+
+}
+.header .logo img{
+height:125px
+}
+.header .logo{
+float:left;
+}
+
+.header .text{
+float:right;
+padding:14px;
+text-align:right;
+color:#054470;
+font-size:17px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .text a{
+text-decoration:none; color:#054470;
+
+}
+.header .text a:hover{
+text-decoration:underline; color:brown;
+}
+
+.navbar ul{
+list-style:none;
+margin-right:-14px;
+padding-top:5px;
+
+
+}
+
+.navbar ul li{
+float:left;
+}
+.page .header .navbar ul a{
+border-right: 1px solid white;
+padding:4px 12px;
+background-color:#054470;
+color:white;
+text-align:right;
+font-size:14px;
+text-decoration:none;
+box-sizing:border-box;
+
+}
+.page .header .navbar ul a:hover{
+background-color:#d7d7d7;
+color:black;
+}
+
+.page .header .navbar ul .active a
+{
+background-color:#d7d7d7;
+color:black;
+}
+.photo
+{
+padding-top:0px;
+margin-top:0px;
+border-top:12px solid #d7d7d7;
+
+}
+
+.photo img{
+padding:0px;
+margin:0px;
+
+}
+.page .content{
+overflow:hidden;
+text-align:justify;}
+
+.page .content .lcon{
+padding:20px;
+float:left;
+width:65%;
+border-right:1px dotted black;
+
+}
+
+ .page .content .rcon{
+padding-left:20px;
+float:right;
+width:35%
+
+}
+
+.footer{
+height:25px;
+background:#044470;
+padding:3px 20px;
+
+}
+.footer .ltext{
+color:white;
+float:left;
+
+}
+.footer .rtext{
+color:white;
+float:right;
+}
+.page .content .lcont{
+padding:10px 90px;
+float:left;
+width:65%;
+border-right:1px dotted black;
+
+}
+.page .content .lcont .form input{
+height:30px;
+width:200px;
+padding:10px;
+margin:10px
+
+}
+.page .content .lcont .form textarea{
+
+height:100px;
+width:200px;
+padding:10px;
+margin:10px
+}
+.page .content .lcont .form input[type=submit]{
+height:30px;
+width:60px;
+padding:5px;
+}
+.page .content .lcont .form input[type=reset]{
+height:30px;
+width:60px;
+padding:5px;
+}
+.bx-wrapper
+{
+border-top:12px solid #d7d7d7 ;
+border-left:0px;
+border-bottom:0px;
+border-right:0px;
+margin:bottom:20px;}
+
+.bx-wrapper .bx-pager{
+padding-top:0px;
+}
+
